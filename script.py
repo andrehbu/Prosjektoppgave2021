@@ -41,7 +41,7 @@ from spectral import *
 
 img = envi.open('nmbu2_07_Mjolnir_S620_SN7003_raw_rad_keystone_smile_bsq_float32.hdr', 'nmbu2_07_Mjolnir_S620_SN7003_raw_rad_keystone_smile_bsq_float32.img').read_band(0) 
 view=imshow(img)
-
+##bra jobba!
 
 input("press enter to cont")
 print("All done!")
