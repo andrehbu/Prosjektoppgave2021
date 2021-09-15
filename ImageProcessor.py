@@ -6,6 +6,11 @@ import pandas as pd
 import laspy
 
 
+def disparityMapGenerator(leftImg, rightImg):
+
+    return
+
+
 def pointcloud(depth, fov):
     matrix = np.loadtxt('model.txt', usecols=range(3))
     matrix2=matrix.T
